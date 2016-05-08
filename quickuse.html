@@ -1,0 +1,52 @@
+<style type="text/css">
+.accordion {
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.accordion .section {
+    margin: 1em;
+    border-bottom: 1px solid #3bc492;
+}
+.accordion .section-header a {
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #3BC493;
+}
+.section-header a:hover {
+    color: #3BC492 !important;
+}
+.accordion .section .section-content {
+    display: none;
+}
+.accordion .section:target .section-content {
+    display: block;
+}
+.accordion .section:target {
+    border: 1px solid #3BC492;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+</style>
+<div class="accordion">
+    <fieldset class="section" id="Plugins">
+      <legend class="section-header"> 
+        <h3><a href="#Plugins">Plugins</a></h3>
+      </legend>
+      <div class="section-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </fieldset>
+        <fieldset class="section" id="Widgets">
+      <legend class="section-header"> 
+        <h3><a href="#Widgets">Widgets</a></h3>
+      </legend>
+      <div class="section-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </fieldset>
+</div>
