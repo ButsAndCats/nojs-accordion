@@ -1,0 +1,31 @@
+/*----- Accordion -----*/
+.accordion {
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.accordion .section {
+    margin: 1em;
+    border-bottom: 1px solid #3bc492;
+}
+.accordion .section-header a {
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #3BC493;
+}
+.section-header a:hover {
+    color: #3BC492 !important;
+}
+.accordion .section .section-content {
+    display: none;
+}
+.accordion .section:target .section-content {
+    display: block;
+}
+.accordion .section:target {
+    border: 1px solid #3BC492;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
